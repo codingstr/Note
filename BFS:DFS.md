@@ -94,7 +94,7 @@ dfs(graph, 1, visited)
 
 <img src="/Users/family/Documents/coding/Alorithm/Note/images/BFS:DFS 2.png" alt="BFS:DFS 2" style="zoom: 25%;" />
 
-### DFS의 동작 과정
+### BFS의 동작 과정
 
 ```css
 1. 탐색 시작 노드를 큐에 삽입, 방문 처리
@@ -102,7 +102,7 @@ dfs(graph, 1, visited)
 3. 2.를 수행할 수 없을 때까지 반복
 ```
 
-- 1 → 2 → 3 → 8 → 7 → 4 → 5 → 6
+- 1 → 2 → 3 → 7 → 4 → 5 → 6 → 8
 - 큐 자료구조에 기초함
 - 구현 시에는 deque 라이브러리를 이용해 구현
 - O(N)
